@@ -33,7 +33,7 @@
 }
 .logo-text {
   color: #131313;
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 700;
 }
 .navbar .nav-items {
@@ -46,16 +46,16 @@
 .navbar .nav-items li a {
   text-decoration: none;
   color: #424242;
-  font-size: 18px;
+  font-size: 1.15rem;
   font-weight: 500;
 }
 /* banner style start  */
-.banner{
-    text-align: center;
+.banner {
+  text-align: center;
 }
 .banner-title {
   color: #131313;
-  font-size: 3.75em;
+  font-size: 3.75rem;
   font-weight: 700;
   width: 55%;
   margin: 75px auto 20px;
@@ -66,15 +66,64 @@
   width: 80%;
   margin: 0 auto;
 }
-.banner-btn{
-    margin-top: 20px;
-    margin-bottom: 40px;
+.banner-btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-.banner-img{
-    height: 600px;
-    background-image: url('../images/banner-img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
-    border-radius: 8px;
+.banner-img {
+  height: 600px;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+/* main style start */
+main {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+/* team section style start  */
+.teams-section-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.teams-img-container {
+  flex: 1;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 250px);
+}
+.teams-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.team-content-container {
+  flex: 1;
+  padding-left: 70px;
+  padding-right: 0px;
+}
+
+.team-title {
+  color: #727272;
+  font-size: 2.8125rem;
+  font-weight: 500;
+}
+.team-title .specific-span-1 {
+  color: #131313;
+  font-weight: 700;
+}
+.team-title .specific-span-2 {
+  color: #ff900e;
+  font-weight: 700;
+}
+.team-description {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 26px;
+  margin: 24px 0 32px;
 }
