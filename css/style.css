@@ -1,0 +1,40 @@
+/* imported work sans fonts from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Usability */
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header style start  */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 45px 200px;
+}
+/* navbar style start  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.navbar .nav-items {
+  display: flex;
+  gap: 50px;
+}
+.navbar .nav-items li {
+  list-style-type: none;
+}
+.navbar .nav-items li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+}
